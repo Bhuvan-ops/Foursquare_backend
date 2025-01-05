@@ -1,0 +1,22 @@
+POST  http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "Veena",
+  "email": "veena@gmail.com",
+  "password": "Veena123",
+  "role":"admin"
+}
+
+###
+
+POST  http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "veena@gmail.com",
+  "password": "Veena123"
+}
+
+###
+
